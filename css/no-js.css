@@ -1,0 +1,14 @@
+.carousel-slider > div, #preloader { display:none; }
+.carousel-slider > div:first-child, .carousel-slider.gallery-slider > div:nth-child(2), .carousel-slider.gallery-slider > div:nth-child(3), .carousel-slider.gallery-slider > div:nth-child(4) { display:block; }
+
+.row-section, #header { opacity:1; }
+
+.animation { visibility:visible; }
+
+@media (max-width: 767px) {
+	
+	.carousel-slider.gallery-slider > div:nth-child(2), .carousel-slider.gallery-slider > div:nth-child(3), .carousel-slider.gallery-slider > div:nth-child(4) { display:none; }
+	
+	#header { padding-top:40px; }
+	
+}

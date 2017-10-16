@@ -1,0 +1,42 @@
+a, a:visited, .list-icon ul li .fa, .affa_feature_icon .fa, .affa_feature_icon h4, .affa_feature_icon_top .fa, .affa_feature_icon_top h4, .tbl-pricing .tbl-prc-col h4.tbl-prc-heading, .tbl-pricing .tbl-prc-col h5.tbl-prc-sub-price, .tbl-pricing .tbl-prc-col .tbl-prc-list li .fa, #header .header-content .btn-header:hover, #header .header-content .btn-header:focus { color:#2bd15d; }
+
+a:hover { color:#4a4a4a; }
+
+input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="email"]:focus, input[type="month"]:focus, input[type="number"]:focus, input[type="password"]:focus, .ie input[type="range"]:focus, .ie9 input[type="range"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="time"]:focus, input[type="url"]:focus, input[type="week"]:focus, select:focus, textarea:focus, .img-hover:hover, .ie .img-hover:hover img { border-color:#2bd15d; }
+
+.btn-custom, input[type="button"], input[type="submit"], input[type="reset"], button {
+    color:#b5fbca !important;
+    background-color:#2bd15d;
+}
+.btn-custom:hover, input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover, button:hover, .btn-custom:focus, input[type="button"]:focus, input[type="submit"]:focus, input[type="reset"]:focus, button:focus {
+    color:#FFF !important;
+    background-color:#35df68;
+}
+
+.btn-custom.btn-icon .fa, button.btn-icon .fa { border-right-color:#35df68; }
+.btn-custom.btn-icon:hover .fa, button.btn-icon:hover .fa, .btn-custom.btn-icon:focus .fa, button.btn-icon:focus .fa { border-right-color:#44ed77; }
+
+.carousel-slider .slick-prev:hover, .carousel-slider .slick-next:hover, .tbl-pricing.tbl-prc-recommended .tbl-prc-col.tbl-prc-col-recommended h4.tbl-prc-heading { background-color:#2bd15d; }
+.carousel-slider .slick-prev:hover, .carousel-slider .slick-prev:focus { background:#2bd15d url(../../../images/carousel-slider-arrow-prev-hover.png) no-repeat center center; }
+.carousel-slider .slick-next:hover, .carousel-slider .slick-next:focus { background:#2bd15d url(../../../images/carousel-slider-arrow-next-hover.png) no-repeat center center; }
+.carousel-slider .slick-dots li.slick-active button { background:#2bd15d; }
+
+.affa-form-subscribe input[type="submit"] { background-image:url(icon-form-subscribe.png); }
+
+#preloader .spinner { background-image:url(page-loader.gif); }
+
+#header { background:#2bd15d url(base-header.jpg) repeat top center; }
+
+#navigation_affix { background-color:#1fbc4e; }
+#header .nav > li > a, #navigation_affix .nav > li > a, #header .navbar-nav > li > a, #navigation_affix .navbar-nav > li > a, #header .nav-menu-mobile ul li a { color:#bdfbd0; }
+#header .navbar-nav > .active > a, #navigation_affix .navbar-nav > .active > a {
+    color:#FFF;
+    background:#1fbc4e !important;
+}
+#navigation_affix .navbar-nav > .active > a {
+    color:#2bd15d;
+    background:#FFF !important;
+}
+#navigation_affix .navbar-nav > .active > a:hover { color:#2bd15d; }
+#header .nav-menu-mobile .nav-menu-links { background-color:#23c253; }
+#header .nav-menu-mobile .nav-menu-button, #header .header-content .btn-header { background-color:#1fbc4e; }
