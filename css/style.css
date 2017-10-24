@@ -504,12 +504,12 @@ button.close:hover {
 		left:20px;
 		background:#d0d0d0 url(../images/carousel-slider-arrow-prev.png) no-repeat center center;
 	}
-	.carousel-slider .slick-prev:hover, .carousel-slider .slick-prev:focus { background:#169ece url(../images/carousel-slider-arrow-prev-hover.png) no-repeat center center; }
+	.carousel-slider .slick-prev:hover, .carousel-slider .slick-prev:focus { background:#169ece url(../images/carousel-slider-arrow-prev.png) no-repeat center center; }
 	.carousel-slider .slick-next {
 		right:20px;
 		background:#d0d0d0 url(../images/carousel-slider-arrow-next.png) no-repeat center center;
 	}
-	.carousel-slider .slick-next:hover, .carousel-slider .slick-next:focus { background:#169ece url(../images/carousel-slider-arrow-next-hover.png) no-repeat center center; }
+	.carousel-slider .slick-next:hover, .carousel-slider .slick-next:focus { background:#169ece url(../images/carousel-slider-arrow-next.png) no-repeat center center; }
 	.carousel-slider .slick-prev:before, .carousel-slider .slick-next:before { display:none; }
 	.carousel-slider .slick-dots {
 		right:0px;
@@ -618,8 +618,8 @@ button.close:hover {
 		-webkit-border-radius:0px 6px 6px 0px;
 		border-radius:0px 6px 6px 0px;
 	}
-	.affa-form-subscribe input[type="submit"]:hover { background-image:url(../images/icon-form-subscribe-hover.png); }
-	.affa-form-subscribe input[type="submit"]:disabled, .affa-form-subscribe input[type="submit"]:disabled:hover { background-image:url(../images/icon-form-subscribe-disabled.png); }
+	.affa-form-subscribe input[type="submit"]:hover { background-image:url(../images/icon-form-subscribe.png); }
+	.affa-form-subscribe input[type="submit"]:disabled, .affa-form-subscribe input[type="submit"]:disabled:hover { background-image:url(../images/icon-form-subscribe.png); }
 	.affa-form-subscribe input[type="text"].success, .affa-form-subscribe input[type="email"].success {
 		color:#408040;
 		background-color:#9edf9e;

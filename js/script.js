@@ -1,3 +1,9 @@
+/*
+* File created by Amitesh Chauhan
+*  <ami070ipec@gmail.com>
+*  Main Javascript file to make plugins initialize and write functions to manipulate view.
+*/
+
 (function($) {
 	
 	'use strict';
@@ -16,7 +22,6 @@
 			ShowApp.Carousel();
 			ShowApp.Lightbox();
 			ShowApp.Subscribe();
-			ShowApp.Customizer();
 		},
 		
 		// Page loading process
@@ -229,24 +234,6 @@
 				}, {
 					offset: '70%'
 				});
-			});
-		},
-		
-		// Customizer to change the template layouts
-		Customizer: function() {
-			$('#customize .popup-open').click(function() {
-				var $parent = $(this).parents('#customize');
-				if ($parent.hasClass('in')) {
-					$parent.removeClass('in');
-				} else {
-					$parent.addClass('in');
-				}
-			});
-			
-			$('#customize .customize-list-color a').click(function(e) {
-				var $color = $(this).attr('class');
-				$('head').append('<link rel="stylesheet" type="text/css" href="css/colors/' + $color + '/color.css">');
-				e.preventDefault();
 			});
 		}
 		
